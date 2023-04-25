@@ -28,6 +28,11 @@ valor da variável com resultado final no console
 
 ====================================================
 */
+let nome = "BIANCA"
+let frase = "Olá," 
+let frase1 = " seja bem vinda!!"
+let fraseFinal = frase  + nome + frase1
+console.log(fraseFinal) 
 
 /*
 2 - João comecou a trabalhar como desenvolvedor mas precisa de comprar um
@@ -88,6 +93,14 @@ Exibir para o cliente o custo total da conta juntamente com a entrega.
 
 ====================================================
 */
+let conta   = 150
+let entrega = 18
+let total = entrega + conta
+let frase3 = "Sua conta deu ${total}  Reais, obrigado pela preferência "
+let mensagem = frase3 +  total
+console.log(mensagem)
+
+
 
 /*
 5 - "Em qualquer triângulo, a soma das medidas de dois lados é sempre maior que a medida do terceiro."
