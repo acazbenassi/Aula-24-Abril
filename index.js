@@ -96,8 +96,9 @@ Exibir para o cliente o custo total da conta juntamente com a entrega.
 let conta   = 150
 let entrega = 18
 let total = entrega + conta
-let frase3 = "Sua conta deu ${total}  Reais, obrigado pela preferência "
-let mensagem = frase3 +  total
+let frase3 = "Sua conta deu R$  "
+let frase4= "obrigado pela preferência"
+let mensagem = frase3 +  total + frase4
 console.log(mensagem)
 
 
