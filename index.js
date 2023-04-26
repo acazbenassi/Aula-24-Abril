@@ -51,6 +51,10 @@ Resultado do preço final no console.
 
 ====================================================
 */
+let preco = 4.500;
+let desconto = 0.2;
+let precoFinal = preco - (preco * desconto);
+console.log("João pagará com desconto o valor de R$ ", precoFinal, " reais.");
 
 /*
 3- Ada Lovelace criou um novo programa muito importante e tem que compartilhar o 
@@ -63,12 +67,13 @@ obs: a imagem da criptografia está na pasta imagens.
 
 Primeiro passo:
 Cifre o usuário e coloque o resultado em uma variável usuarioCifrado. 
-“ada@gmail.com”
+“ada@gmail.com” 
 obs: @ e . não precisam ser codificados. 
 
 Segundo passo:
 Decifre a senha abaixo e declare em uma variável senhaDecifrada
 “D VHQKA GR EDQFR H MDYDVFULSW”
+
 
 Terceiro passo:
 Declare em uma variável a concatenação da frase e faça aparecer no console o resultado das variáveis:
@@ -76,7 +81,9 @@ Declare em uma variável a concatenação da frase e faça aparecer no console o
 
 ====================================================
 */
-
+let usuarioCifrado = "dgd@jdpdfr.fpr "
+let senhaDecifrada = "A SENHA DO BANCO É JAVASCRIPT"
+console.log("o usuário é " + usuarioCifrado + " e a senha é " + senhaDecifrada)
 /*
 4 - Elabore um programa que ajude um restaurante a calcular o valor final
  de um pedido para os seus clientes. A conta é calculada junto com o valor 
@@ -96,13 +103,10 @@ Exibir para o cliente o custo total da conta juntamente com a entrega.
 let conta   = 150
 let entrega = 18
 let total = entrega + conta
-let frase3 = "Sua conta deu R$  "
-let frase4= "obrigado pela preferência"
+let frase3 = "Sua conta deu R$ "
+let frase4= " obrigado pela preferência"
 let mensagem = frase3 +  total + frase4
 console.log(mensagem)
-
-
-
 /*
 5 - "Em qualquer triângulo, a soma das medidas de dois lados é sempre maior que a medida do terceiro."
   
@@ -118,7 +122,18 @@ Saída: Exibir o se pode ou nao ser um triangulo.
 
 ====================================================
 */
-
+let a = 5;
+let b = 10;
+let c = 9;
+if(b>a, b>c) {
+    console.log("***É um Triângulo!!");
+}
+if(a>b , a>c) {
+    console.log("***É um Triângulo!!");
+}
+if(c>b, c>a) {
+    console.log("Os dados informados não é um Triângulo!!");
+}
 /*
 6 - Levando em consideração que existem dois tipos de juros aplicados no mercado 
 fincanceiro e que o mais utilizado é o composto. Elabore um programa que ajude uma
