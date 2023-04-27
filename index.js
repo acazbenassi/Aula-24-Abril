@@ -153,5 +153,13 @@ onde V é o valor final, P é o principal (ou valor inicial), r é a taxa de jur
 
 Saída:
 Exibir para o cliente o valor final do emprestimo e o de cada parcela
-
 */
+let valorInicial = 15000    
+let taxaDeJuros = 1.5       
+let jurosCompostosMes = 1   
+let tempoMeses = 24         
+
+let valorFinal = (valorInicial (1 + taxaDeJuros / jurosCompostosMes) ^ 24)
+
+
+console.log(valorFinal)
